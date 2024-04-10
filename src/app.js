@@ -7,7 +7,9 @@ app.use(express.json());
 app.use(cors());
 
 // Configuración de rutas
-
+app.get('',(req,res)=>{
+    res.end('ruta dentro del back');
+})
 
 
 module.exports = app;
